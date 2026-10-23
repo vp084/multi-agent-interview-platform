@@ -1,0 +1,33 @@
+# Environment variable files
+.env
+*.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+serviceAccountKey.json
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+
+# File storage & uploads
+uploads/
+upload/
+
+# Production build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
